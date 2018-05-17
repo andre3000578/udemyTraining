@@ -1,14 +1,9 @@
 package main
 
-//import "fmt"
+import "fmt"
 import "github.com/andre3000578/udemyTraining/Exercises"
 
 func main() {
-
-	// Exercises.Helloworld()
-	// Exercises.Name()
-	// Exercises.Number()
-	Exercises.Even()
-	Exercises.Fizzbuzz()
-	Exercises.Naturals()
+	num := []int{58, 98, 201, 4, 87, 689, 102}
+	fmt.Println(Exercises.Greatest(num...))
 }
