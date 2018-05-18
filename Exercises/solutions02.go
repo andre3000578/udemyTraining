@@ -21,5 +21,5 @@ func Greatest(list ...int) int {
 }
 
 func Foo(num ...int) {
-	fmt.Println(numbers)
+	fmt.Println(num)
 }

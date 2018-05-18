@@ -12,3 +12,7 @@
 *.out
 
 Exercises/conditionals.go
+Datastructures/slices.go
+Datastructures/arrays.go
+Datastructures/maps.go
+Exercises/projecteuler.go
