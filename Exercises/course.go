@@ -1,6 +1,12 @@
-package main
+package Exercises
 
 import "fmt"
+
+type Course struct {
+	name         string
+	courseNumber float64
+	instructor   string
+}
 
 type Course struct {
 	name         string
